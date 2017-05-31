@@ -1,0 +1,112 @@
+
+// Base
+
+body {
+  font-family: acumin-pro, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7857;
+  // letter-spacing: 0.075em;  
+  @media (min-width: 500px) {
+    font-size: 18px;
+    font-weight: 400;
+  } 
+}
+
+p {
+  line-height: 1.5; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;  
+}
+
+h3, h4, h5, h6 {
+  font-weight: 600; 
+}
+
+label {
+  font-weight: 300; 
+}
+
+
+
+// Slider
+
+.home-carousel-left, 
+.home-carousel-right {    
+  font-size: 32px;  
+  line-height: 40px;
+}
+
+.carousel-caption h1 {
+  font-size:16px;  
+  line-height:27px;
+  letter-spacing:2px;
+  font-weight:100;
+  @media (min-width: 768px) {
+    font-size:26px;    
+  }
+  @media (min-width: 1200px) {    
+    font-size:46px;
+  }
+}
+
+.carousel-caption h2 {
+  font-size:31px;
+  font-weight:600;
+  margin-top:0px;  
+  letter-spacing:2px;
+  margin-bottom:20px;
+  @media (min-width: 768px) {
+    font-size:51px;       
+  }
+  @media (min-width: 992px) {
+    font-size:81px;
+    font-weight:100;               
+  }
+}
+
+.carousel-caption {  
+  font-size: 1.2em;
+  font-weight: 200;   
+}
+
+
+
+// Service Section
+
+.st-service h2{
+  font-size: 16px;  
+}
+
+
+
+// Testimonials Section
+
+.st-testimonials p{
+  font-style: italic;
+}
+
+.st-testimonials .client-info span{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+// Contact Section
+
+.contact-info p i{
+    font-size: 16px;    
+}
+
+
+
+// Footer
+
+.footer-social-icons a{  
+  font-size: 16px;
+}

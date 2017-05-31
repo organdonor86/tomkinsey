@@ -1,0 +1,14 @@
+
+.intro {
+	padding: 40px 0;	
+	@media (min-width: 768px) {
+		padding: 80px;
+	}
+}
+
+
+
+.intro p {
+	max-width: 800px;
+	margin: auto;
+}

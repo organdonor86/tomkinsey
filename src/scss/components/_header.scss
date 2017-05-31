@@ -1,0 +1,71 @@
+
+// snmall
+.logo {
+	margin-left: 15px;
+	@media (min-width: 768px) {
+		margin-left: 0;
+	}
+}
+
+.navbar-nav{
+	background-color: $white;
+}
+
+.st-navbar .navbar-collapse ul{
+	margin-top: 18px;
+}
+
+
+
+#header .navbar {
+	min-height: 80px;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.st-navbar{
+	background-color: $white;
+	border-bottom: 1px solid $offwhite;
+}
+
+.st-navbar ul{
+	margin-top: 15px;
+}
+
+.st-navbar ul li a{	
+	color: $navlinks;
+	font-weight: 600;
+	letter-spacing: 1.5;
+	padding: 0;
+	margin: 14px;
+	@media (min-width: 768px) {
+		margin-left: 13px;
+		margin-right: 13px;
+	}
+}
+
+.st-navbar ul li a:hover,
+.st-navbar ul li a:focus {
+	background-color: transparent;
+	color: $black;
+}
+
+.st-navbar .navbar-header{
+	margin-top: 25px;
+	h3 {
+		display: inline-block;
+		margin: 0;
+	}
+}
+
+.st-navbar .navbar-toggle .icon-bar {
+	background-color: $black;
+}
+
+.st-navbar .navbar-toggle{
+	margin-top: 7px;
+	margin-right: 25px;
+	padding: 0;
+	border-radius: 0;
+}
+
