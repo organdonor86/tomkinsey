@@ -1,14 +1,24 @@
 
+.page-header{
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 0px;
+	position: relative;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+
+
 .intro {
-	padding: 40px 0;	
+	padding: 40px 0;
 	@media (min-width: 768px) {
-		padding: 80px;
+		padding: 100px;
 	}
 }
 
 
 
-.intro p {
-	max-width: 800px;
+.body-wrap {
+	max-width: 600px;
 	margin: auto;
 }

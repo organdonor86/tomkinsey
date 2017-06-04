@@ -8,42 +8,42 @@
 
 <!-- SLIDER -->
 <section id="slider">
-	<div id="home-carousel" class="carousel slide" data-ride="carousel">					
+	<div id="home-carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
 		<div class="carousel-inner">
-			<div class="item active" style="background-image: url(wp-content/themes/tomkinseyfencingandlandscaping/images/slider/driveway.jpg)">
+			<div class="item active" style="background-image: url(<?php echo get_field('slider_image_1')['url']; ?>)">
 				<div class="carousel-caption container">
 					<div class="row">
 						<div class="col-sm-7">
-							<h2>BIT OF A CUNT LIKE</h2>															
+							<h2>WYeah Yeah yeah</h2>
 							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
 						</div>
 					</div>
-				</div>					
+				</div>
 			</div>
-			<div class="item" style="background-image: url(wp-content/themes/tomkinseyfencingandlandscaping/images/slider/fence.jpg)">
+			<div class="item" style="background-image: url(<?php echo get_field('slider_image_2')['url']; ?>)">
 				<div class="carousel-caption container">
 					<div class="row">
-						<div class="col-sm-7">								
+						<div class="col-sm-7">
 							<h2>creative world</h2>
 							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
 						</div>
 					</div>
-				</div>					
+				</div>
 			</div>
-			<div class="item" style="background-image: url(wp-content/themes/tomkinseyfencingandlandscaping/images/slider/tree.jpeg)">
+			<div class="item" style="background-image: url(<?php echo get_field('slider_image_3')['url']; ?>)">
 				<div class="carousel-caption container">
 					<div class="row">
-						<div class="col-sm-7">								
+						<div class="col-sm-7">
 							<h2>creative world</h2>
 							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
 						</div>
 					</div>
-				</div>					
+				</div>
 			</div>
 			<a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
 			<a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-		</div>		
-	</div> <!--/#home-carousel--> 
+		</div>
+	</div> <!--/#home-carousel-->
 </section>
 <!-- /SLIDER -->
 
@@ -53,9 +53,14 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<p>Lumbersexual street art nihil twee mustache a*liqua. Poke selfies do, wha*tever man bun migas hashtag. Ethical ad sartorial mlkshk, umami sint id. Humblebrag succulents small batch, fixie schlitz readymade chia try-hard magna iceland yuccie venmo ennui.</p>
-			<br>
-			<p>Lyft intelligentsia af vinyl, health goth kitsch bespoke aute raclette bushwick YOLO ullamco banjo. Fanny pack elit fingerstache eu sint minim synth adaptogen. Pitchfork flexitarian DIY +1, hella plaid slow-carb gentrify listicle commodo farm-to-table. Lumbersexual street art nihil twee mustache aliqua.</p>
+      <div class="body-wrap"
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    	    <?php the_field('business_intro'); ?>
+
+          <?php endwhile; else :?>
+      	  <p><?php _e( 'Sorry, nothing here!' ); ?></p>
+        <?php endif; ?>
+      </div>
 		</div>
 	</div>
 </div>
@@ -85,8 +90,8 @@
 							<h5>Web Development</h5>
 							<p>Design, Develop</p>
 						</div>
-					</div>	
-				</div>				
+					</div>
+				</div>
 				<div class="col-lg-4 col-sm-12 work-grid">
 					<div class="portfolio-content">
 						<img class="img-responsive" src="wp-content/themes/tomkinseyfencingandlandscaping/images/works/portfolio-5.jpg" alt="">
@@ -95,8 +100,8 @@
 							<h5>Web Development</h5>
 							<p>Design, Develop</p>
 						</div>
-					</div>	
-				</div>				
+					</div>
+				</div>
 				<div class="col-lg-4 col-sm-12 work-grid">
 					<div class="portfolio-content">
 						<img class="img-responsive" src="wp-content/themes/tomkinseyfencingandlandscaping/images/works/portfolio-6.jpg" alt="">
@@ -105,10 +110,10 @@
 							<h5>Web Development</h5>
 							<p>Design, Develop</p>
 						</div>
-					</div>	
+					</div>
 				</div>
 
-			</div>	
+			</div>
 			</div>
 
 		</div>
@@ -179,7 +184,7 @@
 				<p class="st-phone"><i class="fa fa-mobile"></i> <strong>+00 123-456-789</strong></p>
 				<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>email@yourdomain.com</strong></p>
 				<p class="st-website"><i class="fa fa-globe"></i> <strong>www.yourdomain.com</strong></p>
-			
+
 			</div>
 			<div class="col-sm-7 col-sm-offset-1">
 				<form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
@@ -210,4 +215,4 @@
 </section>
 <!-- /CONTACT -->
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>

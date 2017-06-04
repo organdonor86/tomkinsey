@@ -2,42 +2,42 @@
 
 	<!-- SLIDER -->
 	<section id="slider">
-		<div id="home-carousel" class="carousel slide" data-ride="carousel">					
+		<div id="home-carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="item active" style="background-image: url(wp-content/themes/tomkinseyfencingandlandscaping/images/slider/driveway.jpg)">
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-7">
-								<h2>BIT OF A CUNT LIKE</h2>								
+								<h2>Do you know what i'm saying</h2>								
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
 							</div>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<div class="item" style="background-image: url(wp-content/themes/tomkinseyfencingandlandscaping/images/slider/fence.jpg)">
 					<div class="carousel-caption container">
 						<div class="row">
-							<div class="col-sm-7">								
+							<div class="col-sm-7">
 								<h2>creative world</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
 							</div>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<div class="item" style="background-image: url(wp-content/themes/tomkinseyfencingandlandscaping/images/slider/tree.jpeg)">
 					<div class="carousel-caption container">
 						<div class="row">
-							<div class="col-sm-7">								
+							<div class="col-sm-7">
 								<h2>creative world</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
 							</div>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
 				<a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-			</div>		
-		</div> <!--/#home-carousel--> 
+			</div>
+		</div> <!--/#home-carousel-->
     </section>
 	<!-- /SLIDER -->
 
@@ -75,9 +75,9 @@
 									<h5>Web Development</h5>
 									<p>Design, Develop</p>
 								</div>
-							</div>	
+							</div>
 						</div>
-						
+
 						<div class="col-md-4 col-sm-6 work-grid wordpress graphic php">
 							<div class="portfolio-content">
 								<img class="img-responsive" src="images/works/portfolio-5.jpg" alt="">
@@ -86,9 +86,9 @@
 									<h5>Web Development</h5>
 									<p>Design, Develop</p>
 								</div>
-							</div>	
+							</div>
 						</div>
-						
+
 						<div class="col-md-4 col-sm-6 work-grid html bootstrap graphic">
 							<div class="portfolio-content">
 								<img class="img-responsive" src="images/works/portfolio-6.jpg" alt="">
@@ -97,7 +97,7 @@
 									<h5>Web Development</h5>
 									<p>Design, Develop</p>
 								</div>
-							</div>	
+							</div>
 						</div>
 			</div>
 		</div>
@@ -105,7 +105,7 @@
 	<!-- /SERVICES -->
 
 
-	
+
 	<!-- TESTIMONIALS -->
 	<section id="testimonial">
 		<div class="container">
@@ -148,9 +148,9 @@
 	</section>
 	<!-- /TESTIMONIAL -->
 
-	
 
-	
+
+
 	<!-- CONTACT -->
 	<section id="contact">
 		<div class="container">
@@ -167,7 +167,7 @@
 					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>+00 123-456-789</strong></p>
 					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>email@yourdomain.com</strong></p>
 					<p class="st-website"><i class="fa fa-globe"></i> <strong>www.yourdomain.com</strong></p>
-				
+
 				</div>
 				<div class="col-sm-7 col-sm-offset-1">
 					<form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
@@ -198,4 +198,4 @@
 	</section>
 	<!-- /CONTACT -->
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>
